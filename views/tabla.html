@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../assets/css/style.css">
+    <link rel="stylesheet" href="../node_modules/bulma/css/bulma.css">
+</head>
+<body>
+    <div class="card row-custom">
+        <div class="card-content">
+            <div class="content card-content has-background-grey-lighter" style="height: 200px;">
+            <form action="">
+                <div class="columns">
+                    <div class="column">
+                        <div class="field">
+                            <label class="label">Nombre</label>
+                            <div class="control">
+                              <input class="input" type="text" id="name" required placeholder="Nombre">
+                            </div>
+                          </div>
+                    </div>
+                    <div class="column">
+                        <div class="field">
+                            <div class="field">
+                                <label class="label">Apellido paterno</label>
+                                <div class="control">
+                                  <input class="input" type="text" id="apPaterno" required placeholder="Apellido paterno">
+                                </div>
+                              </div>
+                          </div>
+                    </div>
+                    <div class="column">
+                        <div class="field">
+                            <div class="field">
+                                <label class="label">Apellido materno</label>
+                                <div class="control">
+                                  <input class="input" type="text" id="apMaterno" required placeholder="Apellido materno">
+                                </div>
+                              </div>
+                          </div>
+                    </div>
+                    <div class="column">
+                        <div class="field">
+                            <div class="field">
+                                <label class="label">Edad</label>
+                                <div class="control">
+                                  <input class="input" type="text" id="age" required placeholder="Edad">
+                                </div>
+                              </div>
+                          </div>
+                    </div>
+                  </div>
+                  <div class="field is-grouped">
+                    <div class="control">
+                      <button class="button is-link" onclick="userStore();">Crear usuario</button>
+                    </div>
+                  </div>
+            </form>
+            </div>
+            <br>
+            <div class="content card-content has-background-grey-lighter">
+                <div class="columns">
+                    <div class="column">
+                        <div class="field" id="column1">
+                            <label class="label">Nombre</label>
+                            <div class="control">
+                                <div id="renderHtml" class=" input-group mb-3"></div>
+                            </div>
+                          </div>
+                    </div>
+                    <div class="column">
+                        <div class="field">
+                            <div class="field">
+                                <label class="label">Apellido paterno</label>
+                                <div class="control">
+                                    <div id="render2Html" class=" input-group mb-3"></div>
+                                </div>
+                              </div>
+                          </div>
+                    </div>
+                    <div class="column">
+                        <div class="field">
+                            <div class="field">
+                                <label class="label">Apellido materno</label>
+                                <div class="control">
+                                    <div id="render3Html" class=" input-group mb-3"></div>
+                                </div>
+                              </div>
+                          </div>
+                    </div>
+                    <div class="column">
+                        <div class="field">
+                            <div class="field">
+                                <label class="label">Edad</label>
+                                <div class="control">
+                                    <div id="render4Html" class=" input-group mb-3"></div>
+                                </div>
+                              </div>
+                          </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+</body>
+
+<footer>
+    <script src="../assets/javascript/main.js"></script>
+</footer>
+</html>

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../node_modules/bulma/css/bulma.css">
+    <link rel="stylesheet" href="../assets/css/style.css">
+    <title>Login</title>
+</head>
+<body class="has-background-link-light is-fullheight is-fullwidth">
+    <div class="container">
+        <div class='column is-full'>
+            <div class='card'>
+              <div class='card-content is-flex center'>
+                <figure class='image is-64x64'><img src='../assets/images/user.png'></figure>
+              </div>
+
+              <div class="field center">
+                  <div class="card-content is-flex center">
+                    <label class="label">User</label>
+                  </div>
+                <div class="control">
+                  <input class="input" type="text" id="username" placeholder="User">
+                </div>
+              </div>
+
+              <div class="field center">
+                <div class="field card-content is-flex center">
+                    <label class="label">Contraseña</label>
+              </div>
+              <div class="control">
+                <input class="input" type="password" id="password" placeholder="Password">
+              </div>
+              </div>
+
+              <div class="buttons card-content is-flex center">
+                <button class="button is-primary" onclick="login()">Aceptar</button>
+              </div>
+
+            </div>
+          </div>
+
+    </div>
+    
+</body>
+
+<footer>
+  <script src="../assets/javascript/main.js"></script>
+</footer>
+</html>

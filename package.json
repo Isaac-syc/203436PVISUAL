@@ -1,0 +1,21 @@
+{
+  "name": "electron-Kevin",
+  "version": "1.0.0",
+  "description": "",
+  "main": "assets/javascript/index.js",
+  "scripts": {
+    "start": "electron .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Kevin Isaac Velasco Ruiz",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^13.1.6"
+  },
+  "dependencies": {
+    "bulma": "^0.9.3",
+    "dotenv": "^10.0.0",
+    "mysql": "^2.18.1",
+    "node-localstorage": "^2.2.1"
+  }
+}
